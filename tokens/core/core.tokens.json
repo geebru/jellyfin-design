@@ -1,0 +1,32 @@
+{
+    "color": {
+        "neutral": {
+            "light": {
+                "$type": "color",
+                "$value": {
+                    "colorSpace": "srgb",
+                    "components": [1, 1, 1],
+                    "hex": "#ffffff"
+                }
+            }
+        }
+    },
+    "typography": {
+        "heading-level-1": {
+            "$type": "typography",
+            "$value": {
+                "fontFamily": "Roboto",
+                "fontSize": {
+                    "value": 42,
+                    "unit": "px"
+                },
+                "fontWeight": 700,
+                "letterSpacing": {
+                    "value": 0.1,
+                    "unit": "px"
+                },
+                "lineHeight": 1.2
+            }
+        }
+    }
+}

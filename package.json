@@ -1,0 +1,26 @@
+{
+  "name": "jellyfin-design",
+  "version": "0.0.0",
+  "description": "Jellyfin design tokens and assets",
+  "homepage": "https://github.com/geebru/jellyfin-design#readme",
+  "bugs": {
+    "url": "https://github.com/geebru/jellyfin-design/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geebru/jellyfin-design.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@terrazzo/cli": "^0.10.5",
+    "@terrazzo/plugin-css": "^0.10.4",
+    "@terrazzo/plugin-js": "^0.10.3",
+    "@terrazzo/plugin-sass": "^0.10.4"
+  }
+}
