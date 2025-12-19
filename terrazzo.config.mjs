@@ -6,8 +6,11 @@ export default defineConfig({
   plugins: [
     css({
       baseSelector: "html",
+      filename: "tokens.css",
     }),
-    sass()
+    sass({
+      filename: "tokens.scss",
+    })
   ],
   outDir: './dist/',
   lint: {
