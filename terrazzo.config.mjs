@@ -4,11 +4,14 @@ import sass from '@terrazzo/plugin-sass';
 export default defineConfig({
   tokens: ['./tokens/core/core.tokens.json'],
   plugins: [
-    css(),
+    css({
+      baseSelector: "html",
+    }),
     sass()
   ],
   outDir: './dist/',
   lint: {
-    /** @see https://terrazzo.app/docs/cli/lint */
+    "core/colorspace": "warn",
+    "core/consistent-naming": ["error", { format: "kebab-case" }],
   },
 });
