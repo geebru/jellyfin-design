@@ -15,12 +15,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "token-build": "npx tz build",
+    "token-lint": "npx token lint"
   },
   "devDependencies": {
     "@terrazzo/cli": "^0.10.5",
     "@terrazzo/plugin-css": "^0.10.4",
-    "@terrazzo/plugin-js": "^0.10.3",
     "@terrazzo/plugin-sass": "^0.10.4"
   }
 }
