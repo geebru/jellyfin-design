@@ -9,5 +9,4 @@
 
 | Command | Description |
 | -- | -- |
-| `npm run token-lint` | Run Terrazzo linting to ensure design tokens match DTCG spec. |
-| `npm run token-build` | Build current token suite to outputs defined in Terrazzo config. |
+| `npm run token-build` | Build current token suite to outputs defined in StyleDictionary. |
