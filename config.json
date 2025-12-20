@@ -11,17 +11,23 @@
         }
       ]
     },
-    "android": {
-      "transformGroup": "android",
-      "buildPath": "dist/android/",
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "dist/scss/",
       "files": [
         {
-          "destination": "font_dimens.xml",
-          "format": "android/fontDimens"
-        },
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "dist/compose/",
+      "files": [
         {
-          "destination": "colors.xml",
-          "format": "android/colors"
+          "destination": "variables.kt",
+          "format": "compose/object"
         }
       ]
     }
