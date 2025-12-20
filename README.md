@@ -1,7 +1,7 @@
 # DeSiGn
 
 ## Design tokens
-### Tooling 
+### Tooling
 
 - [StyleDictionary](https://styledictionary.com/): StyleDictionary takes DTCG specification JSON tokens and transforms them for use across multiple platforms.
 
